@@ -1,0 +1,169 @@
+
+
+body {
+    margin: 0px;
+}
+
+header h1 {
+    color: #fff; 
+}
+/*Navbar*/
+
+.cta {
+    float: right;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cta h1 {
+    color: #fff;
+    font-family: 'Cormorant Unicase', serif;
+    letter-spacing: 8px;
+}
+ 
+.splash-screen{
+    height: 120vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("bg09.bmp");
+    margin: 0;
+    border-radius: 0;
+}
+
+.btcwidget {
+    float: left;
+}
+
+.container5 {
+    background-color: #222;
+    padding: 20px;
+    box-shadow: 2px 4px 6px #000;
+}
+
+/*Form*/
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+form {
+    width: 340px;
+}
+
+/*Rows*/
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+    border: none;
+}
+
+.navbar {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-brand {
+    font-family: 'Cormorant Unicase', serif;
+    letter-spacing: 4px;
+}
+
+.btn {
+    width: 230px;
+    background-color: #f9b016;
+    border-color: #000;
+}
+
+.textform {
+    color: #FFF;
+    padding: 20px;
+}
+
+/*Contactform*/
+
+.form-contact {
+    box-sizing: border-box;
+    width: 230px;
+    padding: 20px;
+}
+
+#about .cards .top {
+    font-size: 4rem;
+    align-items: center; 
+    text-align: center;
+}
+
+.container2 {
+    width: 44%;
+}
+
+/*Midsection*/
+.midsection {
+    background-color: #eee;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#faq {
+    padding: 30px;
+}
+
+.container3 {
+    background-color: #eee;
+}
+
+/*Payment section*/
+.payments {
+    text-align: center;
+    background-color: #f9b016;
+    padding: 30px;
+    font-size: 3rem;
+}
+
+.payments h3 {
+    font-size: 16px;
+}
+
+/*Contact SoMe*/
+.some {
+    text-align: center;
+    font-size: 6rem;
+    padding: 40px;
+}
+
+.fab i {
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: #353535;
+    padding: 7px;
+    text-align:center;
+    color: #000;
+}
+
